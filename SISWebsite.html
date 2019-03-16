@@ -6,28 +6,35 @@
 <head>
 	<meta charset="UTF-8">
  	<title>Reegan Mitchell</title>
+	<link rel="stylesheet" type="text/css" href="SISWebsiteStyle.css">
 </head>
 
 <body>
 	<div id="Container">
 		<h1>Reegan Mitchell</h1>
+		
+		<div id="Curve"></div>
+		
 		<div id="Main">
 			<ol>
-				<li>Enter 1 letter in box 1 (no numbers allowed)</li>
-				<li>Enter sentence in box 2 (no numbers allowed)</li>
-				<li>Press go and the result will show how many times that letter appears in your sentence</li>
+				<li><p>Enter 1 letter in box 1 (no numbers allowed)</p></li>
+				<li><p>Enter sentence in box 2 (no numbers allowed)</p></li>
+				<li><p>Press go and the result will show how many times that letter appears in your sentence</p></li>
 			</ol>
+			
 			<div id="Boxes">
 				<form>
-					Box 1 <input type="text" name="box1"/><br/>
-					Box 2 <input type="text" name="box2"/>
+					<p>Box 1 <input type="text" name="box1" maxlength="1" size="1"/><br/></p>
+					<p>Box 2 <input type="text" name="box2" maxlength="80" size="90"/></p>
 				</form>
 			</div>
-			<div id="ResultContainer">
-				<p>Result <input type="text" name="resultBox" readonly/></p>
-			</div>
+			
 			<div id="ButtonContainer">
 				<img src="Images/GO.png" alt="GO! (Get result)" height="64" width="64"/>
+			</div>
+			
+			<div id="ResultContainer">
+				<p>Result <input type="text" name="resultBox" size="1" readonly/></p>
 			</div>
 		</div>
 	</div>
