@@ -1,8 +1,8 @@
 body {
-	background-color: rgb(60, 179, 113);
+	background-color: rgb(177, 219, 146);
 }
 
-#Container {
+#container {
 	padding-top: 20px;
 	background-color: black;
 	max-width:800px;
@@ -14,7 +14,7 @@ body {
 	text-align: center;
 }
 
-#Curve {
+#curve {
 	border-top: solid 5px #000;
 	border-color: transparent transparent #000 transparent;
 	border-radius:  50%/10px 10px 0 0;
@@ -24,7 +24,7 @@ body {
 	margin: auto;
 }
 
-#Main {
+#main {
 	background-color: white;
 	max-width:760px;
 	margin: auto;
@@ -33,7 +33,7 @@ body {
 	text-align: left;
 }
 
-#Boxes {
+#boxes {
 	background-color: gray;
 	padding-top: 10px;
 	padding-bottom: 10px;
@@ -45,7 +45,7 @@ input[name="Box1"] {
 	width: 10px;
 }
 
-#ResultContainer {
+#resultContainer {
 	background-color: orange;
 	padding-top: 20px;
 	padding-right: 20px;
@@ -54,7 +54,7 @@ input[name="Box1"] {
 	clear: both;
 }
 
-#ButtonContainer {
+#buttonContainer {
 	background-color: orange;
 	padding-top: 20px;
 	padding-right: 20px;
